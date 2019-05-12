@@ -51,6 +51,7 @@ plt.plot(frecuencias, s, c='pink', label="Grafica de la transformada de fourier 
 plt.plot(frecuencias1, s1, c='magenta', label="Grafica de la transformada de fourier para signalSuma.dat")
 plt.xlabel("frecuencias")
 plt.ylabel("f(t)")
+plt.legend()
 plt.savefig('Fourier_trans.pdf') 
 #Determinacion de las frecuencias principales
 pos_maxima=np.argmax(s)
